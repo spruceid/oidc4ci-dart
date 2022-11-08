@@ -1,0 +1,9 @@
+[package]
+name = "oidc4ci-cbindings"
+version = "0.1.0"
+edition = "2021"
+authors = ["Spruce Systems, Inc."]
+publish = false
+
+[build-dependencies]
+cbindgen = "0.14"

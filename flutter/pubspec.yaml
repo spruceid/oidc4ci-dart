@@ -1,0 +1,27 @@
+name: oidc4ci
+description: A new flutter plugin project.
+version: 0.0.1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.2
+  ffi: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.spruceid.OIDC4CI
+        pluginClass: OIDC4CIPlugin
+      ios:
+        pluginClass: OIDC4CIPlugin
